@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RESTaurant</name>
+    </assembly>
+    <members>
+        <member name="M:RESTaurant.Controllers.CustomerController.GetCustomers">
+            <summary>
+            Retrieves all customers.
+            </summary>
+        </member>
+        <member name="M:RESTaurant.Controllers.CustomerController.GetCustomer(System.Int32)">
+            <summary>
+            Retrieves customer by id.
+            </summary>
+        </member>
+        <member name="M:RESTaurant.Controllers.CustomerController.PutCustomer(System.Int32,RESTaurant.Models.Customer)">
+            <summary>
+            Updates customer.
+            </summary>
+        </member>
+        <member name="M:RESTaurant.Controllers.CustomerController.PostCustomer(RESTaurant.Models.Customer)">
+            <summary>
+            Adds customer.
+            </summary>
+        </member>
+        <member name="M:RESTaurant.Controllers.CustomerController.DeleteCustomer(System.Int32)">
+            <summary>
+            Deletes customer by id.
+            </summary>
+        </member>
+        <member name="M:RESTaurant.Controllers.FoodController.GetFoods">
+            <summary>
+            Retrieves all foods.
+            </summary>
+        </member>
+        <member name="M:RESTaurant.Controllers.FoodController.GetFood(System.Int32)">
+            <summary>
+            Retrieves food by id.
+            </summary>
+        </member>
+        <member name="M:RESTaurant.Controllers.FoodController.PutFood(System.Int32,RESTaurant.Models.Food)">
+            <summary>
+            Updates food.
+            </summary>
+        </member>
+        <member name="M:RESTaurant.Controllers.FoodController.PostFood(RESTaurant.Models.Food)">
+            <summary>
+            Adds food.
+            </summary>
+        </member>
+        <member name="M:RESTaurant.Controllers.FoodController.DeleteFood(System.Int32)">
+            <summary>
+            Deletes food by id.
+            </summary>
+        </member>
+    </members>
+</doc>
